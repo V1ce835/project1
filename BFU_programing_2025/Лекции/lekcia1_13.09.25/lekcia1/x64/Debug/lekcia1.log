@@ -1,0 +1,11 @@
+﻿  lekcia1.cpp
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(25,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(42,13): warning C4305: инициализация: усечение из "int" в "bool"
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(12,10): warning C4101: c1: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(16,14): warning C4101: s2: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(15,11): warning C4101: s1: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(22,24): warning C4101: ll2: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(19,18): warning C4101: i2: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(13,14): warning C4101: c2: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(21,15): warning C4101: ll1: неиспользованная локальная переменная
+C:\Users\Илья\Desktop\Git\BFU_programing_2025\Лекции\lekcia1_13.09.25\lekcia1\lekcia1.cpp(48,1): error C4700: использована неинициализированная локальная переменная "x"
