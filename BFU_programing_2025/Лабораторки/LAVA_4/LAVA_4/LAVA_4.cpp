@@ -55,23 +55,23 @@ int main() {
 
     // ????? хз что дальше
 
-    int cnt[m];
+    int cnt2[m];
 
     for (int j = 0; j < m; ++j) {
-        cnt[j] = 0;
+        cnt2[j] = 0;
     }
 
     for (int j = 0; j < m; ++j) {
         for (int i = 0; i < n; ++i) {
             if (matrix[i][j] < 0) {
-                cnt[j] += 1;
+                cnt2[j] += 1;
             }
         }
     }
 
     int sum_cnt = 0;
     for (int j = 0; j < m; ++j) {
-        sum_cnt = sum_cnt + cnt[j];
+        sum_cnt = sum_cnt + cnt2[j];
     }
     
     for (int j = 0; j < m; ++j) {
@@ -80,7 +80,7 @@ int main() {
             break;
         }
         else {
-            std::cout << "Единиц в " << j + 1 << " столбце: " << cnt[j] << std::endl;
+            std::cout << "Единиц в " << j + 1 << " столбце: " << cnt2[j] << std::endl;
         }
         
     }
@@ -88,15 +88,15 @@ int main() {
     int max_cnt = std::numeric_limits<int>::min();
 
     for (int j = 0; j < m; ++j) {
-        if (cnt[j] > max_cnt) {
-            max_cnt = cnt[j];
+        if (cnt2[j] > max_cnt) {
+            max_cnt = cnt2[j];
         }
     }
 
     
 
     for (int j = 0; j < m; ++j) {
-        if (cnt[j] == max_cnt && sum_cnt != 0) {
+        if (cnt2[j] == max_cnt && sum_cnt != 0) {
             for (int i = 0; i < n; ++i) {
                 matrix[i][j] = -1;
             }
