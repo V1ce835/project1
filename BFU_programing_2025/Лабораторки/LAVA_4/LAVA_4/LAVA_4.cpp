@@ -7,7 +7,7 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
     // 1 пункт
-    /*const int len_m = 4; // по условии лабы
+    const int len_m = 4; // по условии лабы
     int masiv[len_m+3];
 
     for (int i = 0; i < len_m + 3; ++i) {
@@ -37,7 +37,7 @@ int main() {
 
     for (int i = 0; i < len_m + 3; ++i) {
         std::cout << masiv[i] << " ";
-    }*/
+    }
 
     // 2 пункт
     const int n = 3;
